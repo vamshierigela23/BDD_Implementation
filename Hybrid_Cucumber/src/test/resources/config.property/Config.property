@@ -1,0 +1,6 @@
+browser = chrome
+url = http://localhost:4200
+
+#login cridentials 
+username = admin
+password = admin123

@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-01T05:03:46.794Z",
+        "line": 2,
+        "name": "To Test the Login Function of Flight Management Admin",
+        "description": "",
+        "id": "to-test-the-flight-management-application;to-test-the-login-function-of-flight-management-admin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16246558500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the browser and Navigate to the Url",
+            "match": {
+              "location": "com.stepdefinitions.FlightManagementAdminLoginSteps.to_launch_the_browser_and_Navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 478742500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.stepdefinitions.FlightManagementAdminLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188495600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.stepdefinitions.FlightManagementAdminLoginSteps.to_Click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 605447600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Take the Screenshot and the Title",
+            "match": {
+              "location": "com.stepdefinitions.FlightManagementAdminLoginSteps.to_Take_the_Screenshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Flight Management Application",
+    "description": "",
+    "id": "to-test-the-flight-management-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestCase.feature",
+    "tags": []
+  }
+]
